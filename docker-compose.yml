@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:  
-     - 8000:8000
+     - 6000:6000
      #sync de données
     volumes:
       - ./src:/app/src
